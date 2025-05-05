@@ -1,0 +1,28 @@
+# Node.js
+node_modules/
+dist/
+.env
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# TypeScript
+*.tsbuildinfo
+
+# IDEs
+.vscode/
+.idea/
+
+# Coverage
+coverage/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test output
+cucumber-report.json
+

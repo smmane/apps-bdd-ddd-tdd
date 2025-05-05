@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "commonjs",
+    "baseUrl": "./src",
+    "paths": {
+      "@domain/*": ["domain/*"],
+      "@application/*": ["application/*"],
+      "@infrastructure/*": ["infrastructure/*"],
+      "@interfaces/*": ["interfaces/*"]
+    },
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "outDir": "./dist"
+  },
+  "include": ["src", "tests"]
+}
+
